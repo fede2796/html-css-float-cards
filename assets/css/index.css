@@ -10,9 +10,9 @@ body{
 }
 
 .container{
-    width: 70%;
+    width: 80%;
     margin: auto;
-    background-color: black;
+    background-color: white;
     
 }
 
@@ -22,8 +22,61 @@ h1{
     padding-top: 30px;
 }
 p{
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+}
+img{
+
+    height: 85px;
+    
+}
+.col{
+    float: left;
+    padding: 0;
+    width: calc(100%/3);
+    background-color: white;
+   
+}
+
+.clearfix::after{
+    
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.card{
+   background-color: red;
+   
+}
+
+section{
+    padding: 0 25px;
+    background-color: black;
+   
+}
+h3{
+    padding-top: 10px;
+    color: white;
+    
+    
+}
+
+.float-left img{
+    float: left;  
+}
+h5{
+   
+    color: white;
+   
+   
+}
+h4{
+    color: blue;
+}
+.content{
+   
 }
